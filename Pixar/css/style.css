@@ -53,6 +53,10 @@ li a {
     float: left;
 }
 
+#logo img {
+    transform: translateY(-6px);
+}
+
 .error-msg {
     margin: 80px 142px;
     display: inline-block;

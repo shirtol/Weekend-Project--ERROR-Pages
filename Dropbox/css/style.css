@@ -6,11 +6,12 @@
 
 body {
     color: #444;
-    font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana,
-        "lucida sans unicode", tahoma, sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 16px;
     display: block;
+    letter-spacing: 0.2px;
+    line-height: 1.4;
 }
 
 img {
@@ -27,7 +28,6 @@ img {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;
-    word-wrap: break-word;
     font-size: 21px;
 }
 
@@ -38,6 +38,7 @@ img {
     line-height: 36px;
     margin: 10px 0;
     box-sizing: inherit;
+    transform: scale(1, 1.1);
 }
 
 h1 {
@@ -55,17 +56,18 @@ h2 {
     line-height: 36px;
 }
 
-h3 {
+.help-link h3 {
     font-size: 14px;
     font-weight: normal;
     line-height: 20px;
+    color: #404040;
 }
 
 .help-link {
     margin: 48px 0;
     font-size: 14px;
     line-height: 20px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .help-link ul {

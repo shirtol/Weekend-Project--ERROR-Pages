@@ -174,7 +174,6 @@ footer {
 
 .footer-links {
     margin-bottom: 14px;
-    align-items: center;
     text-align: center;
     display: block;
 
@@ -193,7 +192,6 @@ footer {
     text-decoration: none;
     border-bottom: 1px rgba(29, 29, 29, 0.3) solid;
     letter-spacing: 0.4em;
-    word-wrap: break-word;
 }
 
 span {

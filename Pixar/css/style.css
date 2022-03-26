@@ -7,7 +7,6 @@
 body {
     display: block;
     font-family: "Jost", sans-serif;
-
     text-align: center;
     font-weight: 400;
     font-style: normal;
@@ -23,30 +22,7 @@ nav {
     left: 0px;
     width: 100%;
     height: 120px;
-    padding-top: 33px;
-    padding-bottom: 33px;
-    padding-left: 118px;
-    padding-right: 118px;
-}
-
-.nav-el {
-    float: right;
-}
-
-.nav-link {
-    list-style: none;
-    display: inline-block;
-    padding-right: 40px;
-}
-
-.nav-link a:hover {
-    color: #a5a5a5;
-}
-
-li a {
-    text-decoration: none;
-    color: #333;
-    width: 63px;
+    padding: 33px 118px;
 }
 
 #logo {
@@ -54,7 +30,35 @@ li a {
 }
 
 #logo img {
-    transform: translateY(-6px);
+    transform: translateY(-10%);
+    margin-left: 45px;
+}
+
+.nav-el {
+    float: right;
+}
+
+.nav-el ul {
+    margin-right: 45px;
+}
+
+.nav-link {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+    width: 63px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.nav-link a:hover {
+    color: #a5a5a5;
 }
 
 .error-msg {
@@ -65,8 +69,12 @@ li a {
     max-width: 100%;
 }
 
-.error-text {
-    width: 100% auto;
+.error-msg #sadness {
+    height: 800px auto;
+    width: 30%;
+    max-width: 100%;
+    float: left;
+    display: block;
 }
 
 .space {
@@ -79,18 +87,21 @@ li a {
     display: block;
 }
 
+.error-text {
+    width: 100% auto;
+}
+
 .err-msg-header {
     color: rgb(29, 29, 29);
     text-align: center;
-    font-weight: 900;
-    font-style: normal;
+    font-family: "Jost:wght@700", sans-serif;
     font-size: 51px;
     letter-spacing: 14.79px;
-    line-height: 1em;
+    line-height: 1.5em;
     max-width: 900px;
-    margin-bottom: 34.17px;
+    margin-bottom: 4px;
     float: right;
-    font-stretch: expanded;
+    letter-spacing: 0.25em;
     text-size-adjust: 100%;
     display: block;
     width: 70%;
@@ -105,40 +116,8 @@ li a {
     width: 70%;
 }
 
-.error-msg #sadness {
-    height: 585.67px auto;
-    width: 30%;
-    max-width: 100%;
-    float: left;
-    display: block;
-}
-
-.error-img .clr {
+.clr {
     clear: both;
-}
-
-.social-icon {
-    display: inline-block;
-}
-
-li .social-icon {
-    padding-right: 0;
-}
-
-#facebook-icon,
-#twitter-icon,
-#instagram-icon,
-#youtube-icon {
-    width: 28px;
-    height: 48px;
-}
-
-#facebook-icon a,
-#twitter-icon a,
-#instagram-icon a,
-#youtube-icon a {
-    width: 24px;
-    font-size: 23px;
 }
 
 .social-links {
@@ -164,6 +143,27 @@ li .social-icon {
 .grayer a:hover {
     color: #1d1d1d;
     transition: color 100ms linear;
+}
+
+.social-icon {
+    display: inline-block;
+    padding-right: 0;
+}
+
+#facebook-icon,
+#twitter-icon,
+#instagram-icon,
+#youtube-icon {
+    width: 28px;
+    height: 48px;
+}
+
+#facebook-icon a,
+#twitter-icon a,
+#instagram-icon a,
+#youtube-icon a {
+    width: 24px;
+    font-size: 23px;
 }
 
 footer {
@@ -196,8 +196,9 @@ footer {
     word-wrap: break-word;
 }
 
-br {
-    line-height: 0;
+span {
+    font-size: 14px;
+    margin: 0 auto;
 }
 
 .copyrights p {
@@ -206,23 +207,11 @@ br {
     letter-spacing: 0.39pe;
 }
 
-span {
-    font-size: 14px;
-    margin: 0 auto;
-}
-
-.spacer {
-    height: 1px;
-    text-align: center;
-    width: 100%;
-    line-height: 0;
-}
-
-/* @media screen and (max-width: 1230px) {
-    
-} */
-
 @media screen and (max-width: 640px) {
+    .nav-el ul {
+        padding: 0;
+        text-align: center;
+    }
     .error-img .clr {
         clear: both;
     }
@@ -231,6 +220,10 @@ span {
         height: 100%;
         width: 100%;
         text-align: center;
+    }
+
+    .space {
+        display: none;
     }
 
     .err-msg-header {
@@ -247,14 +240,5 @@ span {
         margin-bottom: 22px;
         height: 100%;
         width: 100%;
-    }
-
-    .space {
-        display: none;
-    }
-
-    .nav-el ul {
-        padding: 0;
-        text-align: center;
     }
 }

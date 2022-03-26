@@ -16,5 +16,6 @@ In the future I want to implement a hamburger menu, which will appear at the rig
 
 ## Preview:
 
-<a href="url"><img src="https://assets.dropbox.com/www/en-us/illustrations/spot/look-magnifying-glass.svg" align="left" height="200" width="200" ></a>
-<a href="url"><img src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1470175715831-NUJOMI6VW13ZNT1MI0VB/image-asset.jpeg" align="left" height="200" width="150" ></a>
+<img src="https://github.com/shirtol/Weekend-Project--ERROR-Pages/blob/main/preview/dropbox.png?raw=true" height="270" width="480" />
+
+<img src="https://github.com/shirtol/Weekend-Project--ERROR-Pages/blob/main/preview/sadness.png?raw=true"  height="270" width="480" />

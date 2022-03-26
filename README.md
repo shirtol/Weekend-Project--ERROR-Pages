@@ -1,4 +1,4 @@
-# Weekend Project ERROR Pages Copy
+# Weekend Project ERROR Pages Copy (👉 ﾟヮﾟ)👉 👈(ﾟヮﾟ 👈)
 
 ## Description
 

@@ -1,0 +1,211 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-family: "Jost", sans-serif;
+
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.7em;
+    text-transform: none;
+    color: rgba(29, 29, 29, 0.7);
+    max-width: 100%;
+}
+
+nav {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 120px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 118px;
+    padding-right: 118px;
+}
+
+.nav-el {
+    float: right;
+}
+
+.nav-link {
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.nav-link a:hover {
+    color: #a5a5a5;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+    width: 63px;
+}
+
+#logo {
+    float: left;
+}
+
+.error-msg {
+    margin: 80px 142px;
+    display: inline-block;
+    height: 50%;
+    text-align: center;
+    max-width: 100%;
+}
+
+.error-text {
+    width: 100% auto;
+}
+
+.space {
+    width: 60%;
+    height: 155px;
+    float: right;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 17px;
+    display: block;
+}
+
+.err-msg-header {
+    color: rgb(29, 29, 29);
+    text-align: center;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 51px;
+    letter-spacing: 14.79px;
+    line-height: 1em;
+    max-width: 900px;
+    margin-bottom: 34.17px;
+    float: right;
+    font-stretch: expanded;
+    text-size-adjust: 100%;
+    display: block;
+    width: 70%;
+}
+
+.error-par {
+    float: right;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    max-width: 900px;
+    height: 150px;
+    width: 70%;
+}
+
+.error-msg #sadness {
+    height: 585.67px auto;
+    width: 30%;
+    max-width: 100%;
+    float: left;
+    display: block;
+}
+
+.error-img .clr {
+    clear: both;
+}
+
+li .social-icon {
+    padding-right: 0;
+}
+
+#facebook,
+#twitter,
+#instagram,
+#youtube {
+    width: 28px;
+    height: 48px;
+}
+
+#facebook a,
+#twitter a,
+#instagram a,
+#youtube a {
+    width: 24px;
+    font-size: 23px;
+}
+
+.social-links {
+    padding: 20px 0;
+    width: auto;
+}
+
+.social-links ul {
+    width: auto;
+    padding: 0;
+}
+
+.grayer {
+    width: 199px;
+}
+
+.grayer:hover *,
+.footer-txt:hover {
+    color: #a5a5a5;
+    transition: color 100ms linear;
+}
+
+.grayer a:hover {
+    color: #1d1d1d;
+    transition: color 100ms linear;
+}
+
+footer {
+    padding-top: 20px;
+    width: auto;
+    height: 195px;
+}
+
+.footer-links {
+    margin-bottom: 14px;
+    align-items: center;
+    text-align: center;
+    display: block;
+
+    margin-block-end: 14px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    line-height: 23.8px;
+}
+
+.footer-txt {
+    padding-bottom: 0.7px;
+    color: #1d1d1d;
+    font-size: 14px;
+    line-height: 2px;
+    text-decoration: none;
+    border-bottom: 1px rgba(29, 29, 29, 0.3) solid;
+    letter-spacing: 0.4em;
+    word-wrap: break-word;
+}
+
+br {
+    line-height: 0;
+}
+
+.copyrights p {
+    width: 50%;
+    font-size: 16px;
+    letter-spacing: 0.39pe;
+}
+
+span {
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.spacer {
+    height: 1px;
+    text-align: center;
+    width: 100%;
+    line-height: 0;
+}

@@ -1,0 +1,48 @@
+.social-icon {
+    display: inline-block;
+}
+
+li .social-icon {
+    padding-right: 0;
+}
+
+#facebook-icon,
+#twitter-icon,
+#instagram-icon,
+#youtube-icon {
+    width: 28px;
+    height: 48px;
+}
+
+#facebook-icon a,
+#twitter-icon a,
+#instagram-icon a,
+#youtube-icon a {
+    width: 24px;
+    font-size: 23px;
+}
+
+.social-links {
+    padding: 20px 0;
+    width: auto;
+}
+
+.social-links ul {
+    width: auto;
+    padding: 0;
+}
+
+.grayer {
+    width: 199px;
+}
+
+.grayer:hover *,
+.footer-txt:hover {
+    color: #a5a5a5;
+    transition: color 100ms linear;
+}
+
+.grayer a:hover {
+    color: #1d1d1d;
+    transition: color 100ms linear;
+}

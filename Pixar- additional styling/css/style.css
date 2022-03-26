@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-family: "Jost", sans-serif;
+
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.7em;
+    text-transform: none;
+    color: rgba(29, 29, 29, 0.7);
+    max-width: 100%;
+}
+
+/* 
+TODO: Add hamburger menu when size shrink.
+*/
+
+/* @media screen and (max-width: 1230px) {
+    
+} */

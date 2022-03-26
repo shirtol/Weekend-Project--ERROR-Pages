@@ -1,0 +1,51 @@
+footer {
+    padding-top: 20px;
+    width: auto;
+    height: 195px;
+}
+
+.footer-links {
+    margin-bottom: 14px;
+    align-items: center;
+    text-align: center;
+    display: block;
+
+    margin-block-end: 14px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    line-height: 23.8px;
+}
+
+.footer-txt {
+    padding-bottom: 0.7px;
+    color: #1d1d1d;
+    font-size: 14px;
+    line-height: 2px;
+    text-decoration: none;
+    border-bottom: 1px rgba(29, 29, 29, 0.3) solid;
+    letter-spacing: 0.4em;
+    word-wrap: break-word;
+}
+
+br {
+    line-height: 0;
+}
+
+.copyrights p {
+    width: 50%;
+    font-size: 16px;
+    letter-spacing: 0.39pe;
+}
+
+span {
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.spacer {
+    height: 1px;
+    text-align: center;
+    width: 100%;
+    line-height: 0;
+}

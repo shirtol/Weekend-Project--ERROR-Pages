@@ -1,6 +1,8 @@
-# Weekend Project ERROR Pages Copy (👉 ﾟヮﾟ)👉 👈(ﾟヮﾟ 👈)
+# Weekend Project ERROR Pages Copy
 
 ## Description
+
+(👉 ﾟヮﾟ)👉 👈(ﾟヮﾟ 👈)
 
 In this project I created an imitation of Pixar and Dropbox error pages as part of my first weekend project in appleseeds bootcamp.
 

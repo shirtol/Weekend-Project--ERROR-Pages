@@ -61,18 +61,18 @@ h3 {
     line-height: 20px;
 }
 
-#help-link {
+.help-link {
     margin: 48px 0;
     font-size: 14px;
     line-height: 20px;
     font-weight: normal;
 }
 
-#help-link ul {
+.help-link ul {
     list-style-type: none;
 }
 
-#help-link ul li {
+.help-link ul li {
     margin-top: 10px;
     display: list-item;
 }
